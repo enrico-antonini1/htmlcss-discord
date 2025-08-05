@@ -1,0 +1,175 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* UTILITIES */
+.border-bl {
+    border: 1px solid black;
+    /* border-style: hidden; */
+}
+
+.mg-10px{
+    margin: 10px;
+}
+
+.pd-5px {
+    padding: 5px;
+}
+
+.text-bl {
+    color: black;
+}
+
+.text-wh {
+    color: white;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+/* .bg-gray {
+    background-color: gray;
+} */
+
+/* HEADER */
+
+.header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+    /* debug */
+    /* background-color: lightblue; */
+}
+
+.container {
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto
+
+    /* debug */
+    /* background-color: orange; */
+}
+
+.logo {
+    width: 25%;
+    display: flex;
+    align-items: center;
+
+     /* debug */
+    /* height: 100%; */
+   
+}
+
+.link-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+     /* debug */
+    /* height: 100%; */
+}
+
+.login {
+     display: flex;
+     text-align: right;    
+     align-items: center;
+     justify-content: right;
+
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: white;
+
+    /* debug */
+    /* height: 100%; */
+     /* width: 25%; */
+}
+
+.hero {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    /* background-color: darkblue; */
+
+}
+
+.content {
+    background-color: violet;
+    height: 280px;
+    width: 60%;
+}
+
+.section-2 {
+    background-color: white;
+    height: 350px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+} 
+
+.square-2 {
+background-color: lightskyblue;
+height: 280px;
+width: 45%;
+}
+
+.square-3 {
+background-color: pink;
+height: 280px;
+width: 35%;
+}
+
+.section-3 {
+    background-color:lightgray;
+    height: 350px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+} 
+
+.section-4 {
+    background-color: lightgray;
+    height: 770px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-4 {
+background-color: green;
+height: 700px;
+width: 80%;
+}
