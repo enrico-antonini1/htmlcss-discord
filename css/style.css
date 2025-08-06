@@ -23,7 +23,7 @@ a {
     /* border-style: hidden; */
 }
 
-.mg-10px{
+.mg-10px {
     margin: 10px;
 }
 
@@ -51,6 +51,22 @@ a {
     background-color: black;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.Mac {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Discord {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+
 /* .bg-gray {
     background-color: gray;
 } */
@@ -73,9 +89,8 @@ a {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto
-
-    /* debug */
-    /* background-color: orange; */
+        /* debug */
+        /* background-color: orange; */
 }
 
 .logo {
@@ -83,9 +98,9 @@ a {
     display: flex;
     align-items: center;
 
-     /* debug */
+    /* debug */
     /* height: 100%; */
-   
+
 }
 
 .link-list {
@@ -94,15 +109,15 @@ a {
     align-items: center;
     justify-content: center;
 
-     /* debug */
+    /* debug */
     /* height: 100%; */
 }
 
 .login {
-     display: flex;
-     text-align: right;    
-     align-items: center;
-     justify-content: right;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: right;
 
     padding: 5px 10px;
     border-radius: 20px;
@@ -110,13 +125,15 @@ a {
 
     /* debug */
     /* height: 100%; */
-     /* width: 25%; */
+    /* width: 25%; */
 }
 
 .hero {
     background-image: url(../img/jumbo.png);
-    background-size: cover;
-    height: 400px;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 540px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,38 +144,40 @@ a {
 }
 
 .content {
-    background-color: violet;
-    height: 280px;
+    height: 100%;
     width: 60%;
+
+    /* debug */
+    /* background-color: violet; */
 }
 
 .section-2 {
     background-color: white;
     height: 350px;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
 
 .square-2 {
-background-color: lightskyblue;
-height: 280px;
-width: 45%;
+    background-color: lightskyblue;
+    height: 280px;
+    width: 45%;
 }
 
 .square-3 {
-background-color: pink;
-height: 280px;
-width: 35%;
+    background-color: pink;
+    height: 280px;
+    width: 35%;
 }
 
 .section-3 {
-    background-color:lightgray;
+    background-color: lightgray;
     height: 350px;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
 
 .section-4 {
     background-color: lightgray;
@@ -169,7 +188,7 @@ width: 35%;
 }
 
 .square-4 {
-background-color: green;
-height: 700px;
-width: 80%;
+    background-color: green;
+    height: 700px;
+    width: 80%;
 }
