@@ -87,13 +87,13 @@ a {
 }
 
 .container {
-    height: 30px;
     width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto
         /* debug */
+        /* height: 30px; */
         /* background-color: orange; */
 }
 
@@ -137,7 +137,7 @@ a {
     background-size: contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    /* height: 540px; */
+    height: 540px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,8 +148,8 @@ a {
 }
 
 .content {
-    height: 540px;
-    width: 60%;
+    /* height: 540px; */
+    width: 40%;
 
     /* debug */
     /* background-color: violet; */
@@ -164,7 +164,7 @@ a {
 }
 
 .square-2 {
-    
+
     width: 50%;
     /* debug */
     /* background-color: lightskyblue; */
@@ -191,13 +191,15 @@ a {
     /* height: 770px; */
     display: flex;
     justify-content: center;
-    align-items: center;
+  
+    text-align: center;
 }
 
 .square-4 {
-    background-color: green;
-    /* height: 700px; */
     width: 80%;
+    /* debug */
+    /* height: 700px; */
+    /* background-color: green; */
 }
 
 .title {
