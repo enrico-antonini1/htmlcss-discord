@@ -137,7 +137,7 @@ a {
     background-size: contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 540px;
+    /* height: 540px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,31 +157,30 @@ a {
 
 .section-2 {
     background-color: white;
-    height: 350px;
+    /* height: 350px; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .square-2 {
-    height: 280px;
+    
     width: 50%;
-
     /* debug */
     /* background-color: lightskyblue; */
+    /* height: 280px; */
 }
 
 .square-3 {
-    height: 280px;
     width: 30%;
-
     /* debug */
     /* background-color: pink; */
+    /* height: 280px; */
 }
 
 .section-3 {
     background-color: lightgray;
-    height: 350px;
+    /* height: 350px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,7 +188,7 @@ a {
 
 .section-4 {
     background-color: lightgray;
-    height: 770px;
+    /* height: 770px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,7 +196,7 @@ a {
 
 .square-4 {
     background-color: green;
-    height: 700px;
+    /* height: 700px; */
     width: 80%;
 }
 
