@@ -15,6 +15,7 @@ ul {
 
 a {
     text-decoration: none;
+    display: inline-block;
 }
 
 /* COMMON */
@@ -26,8 +27,11 @@ body {
 /* Layout */
 .container {
     width: 80%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
+
+    /* debug */
+    border: 1px solid black;
 }
 
 /* Utilities */
@@ -64,6 +68,10 @@ body {
     color: white;
 }
 
+.big-height {
+    font-size: 36px;
+}
+
 /* background */
 .bg-blue {
     background-color: rgb(49, 34, 214);
@@ -77,20 +85,34 @@ body {
     background-color: black;
 }
 
+.bg-lgrey {
+    background-color: lightgray;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
 /* HEADER */
 
 .header {
     width: 100%;
     height: 50px;
+    background-color: rgb(34, 100, 243);
     display: flex;
     align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 9999999;
-
-    /* debug */
-    /* background-color: red; */
 }
 
 .logo {
@@ -133,13 +155,6 @@ body {
     border-radius: 20px;
 }
 
-.Mac {
-    background-color: white;
-}
-
-.Discord {
-    background-color: black;
-}
 
 /* 3) Non riesco a fare la freccia in grassetto, ho provato sia con <b></b> in html sia con la classe*/
 /* .arrow {
@@ -147,40 +162,37 @@ body {
     font-weight: 300;
 } */
 
-.section-2 {
-    background-color: white;
+.card-2col {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
-.square-2 {
-    width: 50%;
+
+.card-1col {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+   
 }
 
-.square-3 {
-    width: 30%;
-}
+/* 4) non capisco come modellare l'onda */
+/* .wave {
+    background-image: url(../img/wave.svg); 
+} */
 
-.section-3 {
-    background-color: lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.end {
+    background-image: url(../img/stars.svg);
+    height: 50px;
+    width: 400px;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    line-height: 75px;
+    
 
-.section-4 {
-    background-color: lightgray;
-    display: flex;
-    justify-content: center;
-
-    text-align: center;
-}
-
-.square-4 {
-    width: 80%;
-}
-
-.big-height {
-    font-size: 36px;
+    /* debug */
+    background-color: red;
 }
